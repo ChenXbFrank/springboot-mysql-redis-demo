@@ -3,7 +3,6 @@ package com.pls.accesstoken.web;
 import com.pls.accesstoken.model.Result;
 import com.pls.accesstoken.service.SellerPublicService;
 import com.pls.accesstoken.util.ResultUtil;
-import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/home")
-@Api("HomeController相关的api")
 public class HomeController {
 
     @Autowired
